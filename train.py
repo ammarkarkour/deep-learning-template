@@ -103,7 +103,7 @@ def run_training(device, writer, model, start_epoch, epochs, optimizer,
         set_lr(optimizer, LogConfig.Log_dir)
 
         # Log progress
-        writer.add_scalar("validation accuracy", validation_accuracy)
+        writer.add_scalar("validation accuracy", validation_accuracy, i)
 
 
 if __name__ == "__main__":
