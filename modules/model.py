@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../')
 
-from components.models import Models
+from models.models import Models
 
 class ModelModules:
     Model = Models.Resnet18

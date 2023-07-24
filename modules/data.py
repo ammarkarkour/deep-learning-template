@@ -2,8 +2,8 @@ import sys
 sys.path.append('../')
 
 from config.data import DataConfig
-from components.data_processer import Datasets
-from components.data_loader import Dataloaders
+from data.data_processer import Datasets
+from data.data_loader import Dataloaders
 
 class DataModules:
     Num_epochs = 50
