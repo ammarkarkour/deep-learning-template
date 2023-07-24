@@ -1,8 +1,8 @@
 import sys
 sys.path.append('../')
 
-from optimization.optimizers import Optimizers
-from optimization.criterions import Criterions
+from components.optimizers import Optimizers
+from components.criterions import Criterions
 
 class OptimModules:
     Criterion = Criterions.CrossEntropy

@@ -2,7 +2,7 @@ import sys
 sys.path.append('../')
 
 import torch
-from loggers.logger import Loggers
+from components.logger import Loggers
 from config.logger import LogConfig
 
 class LogModules:
